@@ -22,14 +22,8 @@ User --> [ALB] --> [EC2 Instance 1] [EC2 Instance 2] [EC2 Instance N] (Instances
 . ├── main.tf ├── variables.tf ├── outputs.tf ├── data.tf ├── security.tf ├── provider.tf ├── user-data.sh ├── README.md
 
 
----
 
-## 🚀 How to Deploy
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/shubham7019/ec2-apache-alb-asg-terraform.git
-   cd ec2-apache-alb-asg-terraform
+## Terraform deployment process
 
 1. terraform init
 2. terraform plan
